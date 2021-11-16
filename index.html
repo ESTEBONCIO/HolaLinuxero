@@ -40,25 +40,96 @@
         HEADER
         ================================-->
         <header class="container-fluid p-0 bg-white">
-            <div class="container p-0 bg-warning">
+            <div class="container p-0">
                 <div class="grid-container">
                     <div class="container">
                         <div class="row">
                             <!--=====================================
 						    ICONO
-						======================================-->
+						========== ============================-->
 						<!--  -->
-                        <div class="grid-item col-3 col-sm-3 col-md-3 p-3 col-lg- col-xl-3 bg-danger">
-
+                        <div class="grid-item col-3 col-sm-3 col-md-3 p-3 col-lg- col-xl-3">
+                            <!-- dar dimensiones con css  -->
+							<a href="index.html">
+								<img src="image/ico/linux_x48.ico" alt="">
+							</a>
                         </div>
+                        <!--=====================================
+					BIENVENIDA
+					======================================-->
+                            <div class="grid-item col-6  col-sm-6 col-md-9 p-3 col-lg-9 col-xl-9 p-3">
+                                <!-- dar dimensiones con css  -->
+                                <h2>BIENVENIDO LINUXERO</h1>	
+                            </div>
+                                <!--=====================================
+                                MENÚ
+                                ======================================-->
+                                <div class="grid-item col-3 col-sm-3 col-md-3 p-3 col-lg- col-xl-3  bg-dark d-block d-sm-block d-md-none">
+                                    <h3>Menú</h3>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-
         </header>
+<!--=====================================
+CARRUSEL (BANNER)
+======================================-->
+<div class="container-fluid">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/software_libre/DaVinci Resolve.jpg" alt="Davinci" width="100%" height="100%">
+            </div>
+            <div class="carousel-item">
+                <img src="image/juegos/spine.jpg" alt="Audacy" width="100%" height="100%">
+            </div>
+            <div class="carousel-item">
+                <img src="image/software_libre/blender.jpg" alt="Blender" width="100%" height="100%">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+</div>
+
+<!--=====================================
+BLOQUE TEXTOS 1 - INICIO
+======================================-->
+
+<div class="noticias grid-item container p-0">
+    <div class="grid-item col-4 col-sm-4 col-md-4 p-3  d-block d-sm-block d-md-none">Noticias</div>
+</div>  
+<div class="bloque-textos-1 grid-item container p-0"> 
+    <div class="container p-0">
+        <div class="grid-container">
+            <div class="grid-item">
+                <div
+						class="grid-item col-12 col-sm-12 col-md-12 p-3 col-lg- col-xl-12  bg-info d-block d-sm-block d-md-none">
+						<p>bloque textos inicio</p>
+					</div>
+            </div>
+        </div>
+    </div>
+
+</div>
 </body>
             
 </html>
