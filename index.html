@@ -31,105 +31,60 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="estilos.css">
-    
+        
+        <!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
 </style>
 </head>
             
 <body>
-        <!--=====================================
-        HEADER
-        ================================-->
-        <header class="container-fluid p-0 bg-white">
-            <div class="container p-0">
-                <div class="grid-container">
-                    <div class="container">
-                        <div class="row">
-                            <!--=====================================
-						    ICONO
-						========== ============================-->
-						<!--  -->
-                        <div class="grid-item col-3 col-sm-3 col-md-3 p-3 col-lg- col-xl-3">
-                            <!-- dar dimensiones con css  -->
-							<a href="index.html">
-								<img src="image/ico/linux_x48.ico" alt="">
-							</a>
+    <!-- HEADER -->
+    <header>
+        <div class="grid-item container p-0 bg-success">
+            <div class="row py-2 justify-content-lg-between align-items-center">
+                <!-- LOGO -->
+                <div class="col-12 col-sm-1 p-2">
+                    <a href="index.html">
+                        <img src="image/ico/linux_x48.ico" alt="Logo de Hola Linuxero" class="img-fluid">
+                    </a>
+                </div>
+                <!-- BIENVENIDO -->
+                <div class="col-12 col-sm-6 bg-primary"><h3>BIENVENIDO LINUXERO</h3></div>
+                <!-- BLOQUE DE BOTONES DEL MENÚ -->
+                <div class="col-12 col-sm-5 bg-warning p-2">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="campana-reserva col-2">
+                            <a href="#" id="btnReserva">                                
+                                <i class="campana fa fa-bell" aria-hidden="true"></i>
+                                <i class="flechaCampana fas fa-caret-up lead mx-2"></i>
+                            </a>
                         </div>
-                        <!--=====================================
-					BIENVENIDA
-					======================================-->
-                            <div class="grid-item col-6  col-sm-6 col-md-9 p-3 col-lg-9 col-xl-9 p-3">
-                                <!-- dar dimensiones con css  -->
-                                <h2>BIENVENIDO LINUXERO</h1>	
-                            </div>
-                                <!--=====================================
-                                MENÚ
-                                ======================================-->
-                                <div class="grid-item col-3 col-sm-3 col-md-3 p-3 col-lg- col-xl-3  bg-dark d-block d-sm-block d-md-none">
-                                    <h3>Menú</h3>
-                                </div>
+                        <!-- BOTON LOGIN/REGISTER -->
+                        <div class="login-register col-2">
+                            <a href="#" data-toggle="modal" data-target="#modalLoginRegister">
+                                <i class="fas fa-user"></i>
+                            </a>
+                        </div>
+                        <!-- IDIOMAS -->
+                        <div class="idiomas col-2">
+                            <span id="idiomaEsp" class="p-1">ES</span>
+                            <span id="idiomaIng" class="p-1">EN</span>
+                        </div>
+                        <div class="botonMenu mr-3 mr-md-0 col-2">
+                            <a href="#" id="btnMenu">
+                                <i class="fas fa-bars"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </header>
-<!--=====================================
-CARRUSEL (BANNER)
-======================================-->
-<div class="container-fluid">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ul>
-
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="image/software_libre/DaVinci Resolve.jpg" alt="Davinci" width="100%" height="100%">
-            </div>
-            <div class="carousel-item">
-                <img src="image/juegos/spine.jpg" alt="Audacy" width="100%" height="100%">
-            </div>
-            <div class="carousel-item">
-                <img src="image/software_libre/blender.jpg" alt="Blender" width="100%" height="100%">
-            </div>
         </div>
+    </header>
 
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
 
-</div>
-
-<!--=====================================
-BLOQUE TEXTOS 1 - INICIO
-======================================-->
-
-<div class="noticias grid-item container p-0">
-    <div class="grid-item col-4 col-sm-4 col-md-4 p-3  d-block d-sm-block d-md-none">Noticias</div>
-</div>  
-<div class="bloque-textos-1 grid-item container p-0"> 
-    <div class="container p-0">
-        <div class="grid-container">
-            <div class="grid-item">
-                <div
-						class="grid-item col-12 col-sm-12 col-md-12 p-3 col-lg- col-xl-12  bg-info d-block d-sm-block d-md-none">
-						<p>bloque textos inicio</p>
-					</div>
-            </div>
-        </div>
-    </div>
-
-</div>
+    
 </body>
             
 </html>
