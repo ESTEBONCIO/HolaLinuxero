@@ -1,0 +1,251 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,input,textarea,select,button{
+   font-family: 'Open Sans, sans-serif';
+   font-weight: 100;
+}
+
+ul, ol{
+   list-style:none;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+   list-style:none;
+   text-decoration: none;
+}
+
+/*=============================================
+HEADER
+=============================================*/
+header{
+   position:fixed;
+   z-index:2;
+}
+header .grid-container{
+   display:grid;
+}
+
+header .grid-item{
+   text-align:center;
+}
+
+/*
+AGREGAR CODIGO PARA EL FORMULARIO
+*/
+
+
+
+
+
+/*=============================================
+BANNER
+=============================================*/
+.banner{
+   background-color: silver;
+   border:2px solid white;
+   height:650px;
+}
+
+/*
+NOTICIAS
+*/
+.noticias .grid-container{
+display:grid;
+}
+.noticias {
+   text-align: left;
+}
+.noticias  .grid-item{
+   background-color: silver;
+   border:2px solid white;
+   text-align:left;
+   height: 45px;
+}
+
+/*
+=====================================
+  BLOQUE  TEXTOS 1
+ ======================================
+*/
+.bloque-textos-1 .grid-container{
+   display:grid;
+}
+
+.bloque-textos-1 {
+   text-align: center;
+}
+.bloque-textos-1  .grid-item{
+   background-color: silver;
+   border:2px solid white;
+   text-align:center;
+   height: 300px;
+}
+
+
+
+
+
+/*=====================================
+BLOQUE IMAGENES 1
+======================================*/
+.bloque-imagenes-1 .grid-container{
+   display:grid;
+}
+
+.bloque-imagenes-1{
+   text-align: center;
+}
+.bloque-imagenes-1 .grid-item{
+   background-color: silver;
+   border:2px solid white;
+   text-align:center;
+   height: 300px;
+}
+
+
+
+
+/*
+=====================================
+  BLOQUE  TEXTOS 2
+ ======================================
+*/
+.bloque-textos-2 .grid-container{
+   display:grid;
+}
+
+.bloque-textos-2 {
+   text-align: center;
+}
+.bloque-textos-2  .grid-item{
+   background-color: silver;
+   border:2px solid white;
+   text-align:center;
+   height: 300px;
+}
+
+
+
+
+
+
+/*=====================================
+BLOQUE IMAGENES 2
+======================================*/
+.bloque-imagenes-2 .grid-container{
+   display:grid;
+}
+
+.bloque-imagenes-2{
+   text-align: center;
+}
+.bloque-imagenes-2 .grid-item{
+   background-color: silver;
+   border:2px solid white;
+   text-align:center;
+   height: 300px;
+}
+
+
+
+
+
+
+/*
+=====================================
+  BLOQUE  TEXTOS 3 - MOVILES
+ ======================================
+*/
+.bloque-textos-3 .grid-container{
+   display:grid;
+}
+
+.bloque-textos-3 {
+   text-align: center;
+}
+.bloque-textos-3  .grid-item{
+   background-color: silver;
+   border:2px solid white;
+   text-align:center;
+   height: 220px;
+}
+
+
+
+
+
+
+
+/*
+=====================================
+  MAPA
+ ======================================
+*/
+.mapa{
+   position:relative;
+}
+
+.mapa .info{
+   position:absolute;
+   width:400px;
+   right:10%; 
+   top:10%; 
+   background-color: silver;
+   height:370px;
+}
+
+
+
+
+
+
+
+
+
+/*
+=====================================
+  FOOTER
+ ======================================
+*/
+footer .grid-container{
+   display:grid;
+}
+
+
+
+footer .grid-item{
+   background-color: silver;
+   border:2px solid white;
+   text-align:center;
+   height: 50px;
+}
+footer .grid-item1{
+   background-color: silver;
+   border:2px solid white;
+   text-align:center;
+   height: 20px;
+}
+
+footer .pie-pag .grid-container{
+   background-color: silver;
+   border:2px solid white;
+   text-align:center;
+   height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
