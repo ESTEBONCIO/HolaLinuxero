@@ -1,25 +1,59 @@
 /*=============================================
 BOTÓN MENÚ
 =============================================*/
-$(".botonMenu").click(function(){
+if(window.matchMedia("(max-width:768px)").matches){
 
-	$(".menu").slideToggle('fast');
-	$(".formReservas").slideUp('fast');
+	$(".botonMenu").click(function(){
 
-})
+		$(".menuMovil").slideToggle('fast');
+		$(".menuMovil").css({"top":$("header").height()})
 
-$(".menu ul li a").click(function(e){
+	})	
 
-	$(".menu").slideToggle('fast');
+	$(".menuMovil ul li a").click(function(e){
 
-	e.preventDefault();
-	var vinculo = $(this).attr("href");
-	console.log("vinculo",vinculo);
-	$("html, body").animate({
-		scrollTop: $(vinculo).offset().top - 62
+		$(".menuMovil").slideToggle('fast');
 
-	}, 1000, "easeInOutBack")	
-})
+		e.preventDefault();
+
+		var vinculo = $(this).attr("href");
+		
+		$("html, body").animate({
+
+			scrollTop: $(vinculo).offset().top - 10
+
+		}, 1000, "easeInOutBack")
+
+	})
+
+
+}else{
+
+	$(".botonMenu").click(function(){
+
+		$(".menu").slideToggle('fast');
+
+		$(".formReservas").slideUp('fast');
+
+	})
+
+	$(".menu ul li a").click(function(e){
+
+		$(".menu").slideToggle('fast');
+
+		e.preventDefault();
+
+		var vinculo = $(this).attr("href");
+		
+		$("html, body").animate({
+
+			scrollTop: $(vinculo).offset().top - 60
+
+		}, 1000, "easeInOutBack")
+
+	})
+
+}
 
 
 /*=============================================
