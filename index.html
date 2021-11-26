@@ -30,12 +30,26 @@
     
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="css/estilos.css">
         
         <!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	
-</style>
+        
+
+    	<!-- bootstrap datepicker -->
+	<link rel="stylesheet" href="css/plugins/bootstrap-datepicker.standalone.min.css">
+    	<!-- bootstrap datepicker -->
+	<!-- https://bootstrap-datepicker.readthedocs.io/en/latest/ -->
+	<script src="js/plugins/bootstrap-datepicker.min.js"></script>
+
+	<!-- codigo agregado mierdoles 10 noviembre-->
+	<!-- https://easings.net/es# -->
+	<script src="js/plugins/jquery.easing.js"></script>
+
+	<!-- https://markgoodyear.com/labs/scrollup/ -->
+	<script src="js/plugins/scrollUP.js"></script>
+
+
 </head>
             
 <body>
@@ -70,9 +84,9 @@
                         <!-- IDIOMAS -->
                         <div class="idiomas col-2">
                             <span id="idiomaEsp" class="p-1">ES</span>
-                            <span id="idiomaIng" class="p-1">EN</span>
+                            <!--<span id="idiomaIng" class="p-1">EN</span>-->
                         </div>
-                        <div class="botonMenu mr-3 mr-md-0 col-2">
+                        <div class="grid-item botonMenu mr-3 mr-md-0 col-2">
                             <a href="#" id="btnMenu">
                                 <i class="fas fa-bars"></i>
                             </a>
@@ -83,8 +97,50 @@
         </div>
     </header>
 
+<!--NAV BAR -->
+<nav class="menu container-fluid p-0">
+	
+	<ul class="nav nav-justified py-0">
+		
+		<li class="nav-item">
+			<a class="nav-link text-white" href="#noticias">Noticias</a>
+		</li>
+
+		<li class="nav-item">
+			<a class="nav-link text-white" href="#programas">Programas</a>
+		</li>
+
+		<li class="nav-item">
+			<a class="nav-link text-white" href="#juegos">Juegos</a>
+		</li>
+
+		<li class="nav-item">
+			<a class="nav-link text-white" href="#software_libre">Software Libre</a>
+		</li>
+
+		<li class="nav-item">
+			<a class="nav-link text-white" href="#aprende_conmigo">Aprende Conmigo</a>
+		</li>
+
+		<li class="nav-item">
+			<a class="nav-link text-white" href="#contactanos">Contáctanos</a>
+		</li>
+
+	</ul>
+
+
+</nav>
 
     
+
+<!--=====================================
+BANNER
+======================================-->
+
+<div class="banner container-fluid p-0">1</div>
+    
+
+<script src="js/script.js"></script>
 </body>
             
 </html>
