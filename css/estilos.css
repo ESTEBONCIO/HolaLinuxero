@@ -143,7 +143,7 @@ img.fondo_black {
 	position:relative;
    width:30%;
 	height:20vh;
-   margin-top: 0px;
+   margin-top: 45px;
 }
 .fondo_black{
 	position:fixed;
@@ -152,7 +152,7 @@ img.fondo_black {
    margin-top: 222px;
    margin-left: -253px;
 }
-nav-item1{
+.nav-item1{
    color: #B5A99B;
    cursor: pointer;
 }
@@ -163,6 +163,13 @@ nav-item1{
    text-align: center;
    color: #B5A99B;
    cursor: pointer;
+}
+.nav-item1{
+   text-align: center;
+   scroll-margin-left: 30px;
+}
+.nav-link {
+   text-align: center;
 }
 /*=============================================
 BANNER

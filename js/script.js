@@ -20,7 +20,7 @@ if(window.matchMedia("(max-width:768px)").matches){
 		
 		$("html, body").animate({
 
-			scrollTop: $(vinculo).offset().top - 10
+			scrollTop: $(vinculo).offset().top - 55
 
 		}, 1000, "easeInOutBack")
 
