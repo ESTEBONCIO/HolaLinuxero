@@ -171,6 +171,14 @@ img.fondo_black {
 .nav-link {
    text-align: center;
 }
+
+.icono_cerrar{
+   text-align: right;
+   cursor: pointer;
+   margin-left: 500px;
+   vertical-align: middle;
+}
+
 /*=============================================
 BANNER
 =============================================*/
