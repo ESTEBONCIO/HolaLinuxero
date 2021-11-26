@@ -64,9 +64,12 @@ if(window.matchMedia("(max-width:768px)").matches){
 
 	$(".botonMenu").click(function(){
 
-        
+        //header-oculto
 		$(".menuMovil").slideToggle('fast');
         $(".grid-item").slideUp('fast');
+
+        //$(".header-oculto").slideUp('fast');
+
         $(".banner").slideUp('fast');
 		$(".menuMovil").css({"top":$("header").height()})
 

@@ -15,7 +15,9 @@ a:visited, a:link, a:focus, a:hover, a:active{
    list-style:none;
    text-decoration: none;
 }
-
+body{
+   background-color: black;
+}
 /*=============================================
 HEADER
 =============================================*/
@@ -175,7 +177,7 @@ img.fondo_black {
 .icono_cerrar{
    text-align: right;
    cursor: pointer;
-   margin-left: 500px;
+   margin-left: 300px;
    vertical-align: middle;
 }
 
