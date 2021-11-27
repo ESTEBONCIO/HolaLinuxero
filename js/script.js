@@ -156,3 +156,33 @@ $.scrollUp({
 	easingType: "easeOutQuint"
 })
 
+/*=============================================
+SLIDE BANNER
+=============================================*/
+
+$('.fade-slider').jdSlider({
+
+    isSliding: false,
+    isAuto: true,
+    isLoop: true,
+    isDrag: false,
+    interval: 7000,
+    isCursor: false,
+    speed: 3000
+
+})
+
+$(".verMas").click(function(){
+
+	var vinculo = $(this).attr("vinculo");
+
+	$("html, body").animate({
+
+		scrollTop: $(vinculo).offset().top - 60
+
+	}, 1000, "easeInOutBack")
+
+})
+
+$(".banner .fade-slider").css({"margin-top":$("header").height()})
+

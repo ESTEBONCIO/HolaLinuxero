@@ -93,7 +93,24 @@ header .botonMenu i{
    cursor: pointer;
 }
 
+/*=============================================
+BANNER
+=============================================*/
 
+.banner .fade-slider{
+	position:relative;
+}
+
+.banner .verMas{
+	position:absolute;
+	width:60px;
+	line-height: 60px;
+  	bottom: 5%;
+    left: 50%;
+    font-size:30px;
+    transform: translate(-50%, 0%);
+    cursor:pointer;
+}
 
 /*=============================================
 MENU
@@ -161,6 +178,7 @@ img.fondo_black {
 .fondo_negro{
    background-color: black !important;
 }
+
 .fondo_negro{
    text-align: center;
    color: #B5A99B;
