@@ -32,6 +32,7 @@ header .grid-container{
 
 header .grid-item{
    text-align:center;
+   background-color: black;
 }
 
 header .bloqueReservas{
@@ -93,6 +94,19 @@ header .botonMenu i{
    cursor: pointer;
 }
 
+.header-principal{
+   background: black;
+}
+
+.textBienvenido{
+   color: #ffffff;
+   
+}
+.header-oculto{
+   margin-top: 20px;
+   margin-bottom: -70px;
+
+}
 /*=============================================
 BANNER
 =============================================*/
@@ -118,7 +132,7 @@ MENU
  nav.menu{
     position: fixed;
     z-index:10;
-    top: 60px;
+    top: 100px;
     background-color: rgb(56, 88, 154 );
     display:none;
  }

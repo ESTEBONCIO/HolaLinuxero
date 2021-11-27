@@ -1,17 +1,22 @@
 /*=============================================
 BOTÓN MENÚ
 =============================================*/
-/*
+
 if(window.matchMedia("(max-width:768px)").matches){
 
 	$(".botonMenu").click(function(){
 
 		$(".menuMovil").slideToggle('fast');
+		$(".grid-item").slideUp('fast');
+		$(".banner").slideUp('fast');
 		$(".menuMovil").css({"top":$("header").height()})
 
 	})	
 
 	$(".menuMovil ul li a").click(function(e){
+
+		$(".grid-item").slideToggle('fast');
+        $(".banner").slideToggle('fast');
 
 		$(".menuMovil").slideToggle('fast');
 
@@ -27,55 +32,7 @@ if(window.matchMedia("(max-width:768px)").matches){
 
 	})
 
-
-}else{
-
-	$(".botonMenu").click(function(){
-
-		$(".menu").slideToggle('fast');
-
-		$(".formReservas").slideUp('fast');
-
-	})
-
-	$(".menu ul li a").click(function(e){
-
-		$(".menu").slideToggle('fast');
-
-		e.preventDefault();
-
-		var vinculo = $(this).attr("href");
-		
-		$("html, body").animate({
-
-			scrollTop: $(vinculo).offset().top - 60
-
-		}, 1000, "easeInOutBack")
-
-	})
-
-}/*
-/*
-////////////////////////////////////////////////////////////////////////////////
-
-*/
-
-if(window.matchMedia("(max-width:768px)").matches){
-
-	$(".botonMenu").click(function(){
-
-        //header-oculto
-		$(".menuMovil").slideToggle('fast');
-        $(".grid-item").slideUp('fast');
-
-        //$(".header-oculto").slideUp('fast');
-
-        $(".banner").slideUp('fast');
-		$(".menuMovil").css({"top":$("header").height()})
-
-	})	
-
-	$(".menuMovil ul li a").click(function(e){
+	$(".icono_cerrar").click(function(e){
 
         $(".grid-item").slideToggle('fast');
         $(".banner").slideToggle('fast');
@@ -94,30 +51,10 @@ if(window.matchMedia("(max-width:768px)").matches){
 
 	})
 
-    $(".icono_cerrar").click(function(e){
-
-        $(".grid-item").slideToggle('fast');
-        $(".banner").slideToggle('fast');
-
-		$(".menuMovil").slideToggle('fast');
-
-		e.preventDefault();
-
-		var vinculo = $(this).attr("href");
-		
-		$("html, body").animate({
-
-			scrollTop: $(vinculo).offset().top - 55
-
-		}, 1000, "easeInOutBack")
-
-	})
-
-
 }else{
 
-	$(".icono_cerrar").click(function(){
-        
+	$(".botonMenu").click(function(){
+
 		$(".menu").slideToggle('fast');
 
 		$(".formReservas").slideUp('fast');
@@ -125,7 +62,7 @@ if(window.matchMedia("(max-width:768px)").matches){
 	})
 
 	$(".menu ul li a").click(function(e){
-        
+
 		$(".menu").slideToggle('fast');
 
 		e.preventDefault();
@@ -141,6 +78,12 @@ if(window.matchMedia("(max-width:768px)").matches){
 	})
 
 }
+/*
+////////////////////////////////////////////////////////////////////////////////
+
+*/
+
+
 
 
 

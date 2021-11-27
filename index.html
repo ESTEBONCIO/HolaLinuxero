@@ -35,6 +35,8 @@
         <!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         
+    <!-- jdSlider -->
+    <link rel="stylesheet" href="css/plugins/jquery.jdSlider.css">
 
     	<!-- bootstrap datepicker -->
 	<link rel="stylesheet" href="css/plugins/bootstrap-datepicker.standalone.min.css">
@@ -48,56 +50,64 @@
 
 	<!-- https://markgoodyear.com/labs/scrollup/ -->
 	<script src="js/plugins/scrollUP.js"></script>
+    <!-- jdSlider -->
+	<!-- https://www.jqueryscript.net/slider/Carousel-Slideshow-jdSlider.html -->
+	<script src="js/plugins/jquery.jdSlider-latest.js"></script>
 
 
 </head>
             
 <body>
     <!-- HEADER -->
-    <header class="header-oculto">
-        <div class="grid-item container p-0 bg-success">
-            <div class="row py-2 justify-content-lg-between align-items-center">
-                <!-- LOGO -->
-                <div class="col-2 col-sm-2 col-md-2 col-lg-2 p-2 bg-danger">
-                    <a href="index.html">
-                        <img src="image/ico/linux_x48.ico" alt="Logo de Hola Linuxero" class="img-fluid">
-                    </a>
-                </div>
-                <!-- BIENVENIDO -->
-                <div class="col-8 col-sm-8 col-md-6 col-lg-6 bg-primary"><h3>BIENVENIDO LINUXERO</h3></div>
-                <!-- BLOQUE DE BOTONES DEL MENÚ -->
-                <div class="col-2 col-sm-1 col-md-4 col-lg-4 bg-warning p-2">
-                    <div class="row">
-                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 d-none d-md-block campana-reserva bg-danger">
-                            <a href="#" id="btnReserva">                                
-                                <i class="campana fa fa-bell" aria-hidden="true"></i>
-                                <i class="flechaCampana fas fa-caret-up lead mx-2"></i>
-                            </a>
-                        </div>
-                        <!-- BOTON LOGIN/REGISTER -->
-                        <div class="col-3 col-sm-2 col-md-2 col-lg-2 d-none d-md-block login-register bg-dark">
-                            <a href="#" data-toggle="modal" data-target="#modalLoginRegister">
-                                <i class="fas fa-user"></i>
-                            </a>
-                        </div>
-                        <!-- IDIOMAS -->
-                        <div class="idiomas col-3 col-sm-3 col-md-4 col-lg-4 d-none d-md-block bg-white">
-                            <span class="border border-info float-left p-1 bg-info text-white idiomaEs">ES</span>
-				            <span class="border border-info float-left p-1 bg-white text-dark idiomaEn">EN</span>
-                        </div>
-                        <div class="grid-item botonMenu mr-3 mr-md-0 col-3 col-sm-3 col-md-2 col-lg-3 bg-primary">
-                            <a href="#" id="btnMenu">
-                                <i class="fas fa-bars"></i>
-                            </a>
+    <header class="container-fluid header-oculto">
+        <div class="header-principal container-fluid bg-dark">
+
+            <div class="grid-item container p-0 bg-danger" >
+                <div class="row py-2 justify-content-lg-between align-items-center">
+                    <!-- LOGO -->
+                    <div class="col-2 col-sm-2 col-md-2 col-lg-2 p-2 ">
+                        <a href="index.html">
+                            <img src="image/ico/linux_x48_blanco.jpg" alt="Logo de Hola Linuxero" class="img-fluid">
+                        </a>
+                    </div>
+                    <!-- BIENVENIDO -->
+                    <div class="textBienvenido col-8 col-sm-8 col-md-6 col-lg-6"><h1>BIENVENIDO LINUXERO</h1></div>
+                    <!-- BLOQUE DE BOTONES DEL MENÚ -->
+                    <div class="col-2 col-sm-1 col-md-4 col-lg-4 bg-warning p-2">
+                        <div class="row">
+                            <div class="col-3 col-sm-3 col-md-3 col-lg-3 d-none d-md-block campana-reserva bg-danger">
+                                <a href="#" id="btnReserva">                                
+                                    <i class="campana fa fa-bell" aria-hidden="true"></i>
+                                    <i class="flechaCampana fas fa-caret-up lead mx-2"></i>
+                                </a>
+                            </div>
+                            <!-- BOTON LOGIN/REGISTER -->
+                            <div class="col-3 col-sm-2 col-md-2 col-lg-2 d-none d-md-block login-register bg-dark">
+                                <a href="#" data-toggle="modal" data-target="#modalLoginRegister">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                            </div>
+                            <!-- IDIOMAS -->
+                            <div class="idiomas col-3 col-sm-3 col-md-4 col-lg-4 d-none d-md-block bg-white">
+                                <span class="border border-info float-left p-1 bg-info text-white idiomaEs">ES</span>
+                                <span class="border border-info float-left p-1 bg-white text-dark idiomaEn">EN</span>
+                            </div>
+                            <div class="grid-item botonMenu mr-3 mr-md-0 col-3 col-sm-3 col-md-2 col-lg-3">
+                                <a href="#" id="btnMenu">
+                                    <i class="fas fa-bars"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
+        
     </header>
 
 <!--NAV BAR MENÚ-->
-<nav class="menu container-fluid p-0">
+<nav class="menu container-fluid p-3">
 	
 	<ul class="nav nav-justified py-0">
 		
@@ -160,13 +170,13 @@ MENÚ MÓVIL
 	</div>
 
 	
-    <div class="fondo_negro container-fluid p-3" >
+    <div class="fondo_negro container-fluid p-0" >
         <div class="rowd-flex flex-row-reverse" >
-            <i class="icono_cerrar fas fa-window-close"></i>
+            <i class="icono_cerrar fas fa-window-close col-5"></i>
         </div>
         
         <img class="linuxInvertido"  src="image/ico/linux_invertido.jpg"  alt="">
-        <ul class="nav flex-column mt-2 pl-4 mb-2 ">
+        <ul class="nav flex-column mt-2 pl-4 mb-2 col-7">
 		
             <!--<img class="fondo_black"  src="image/ico/fondo_negro.jpg"  alt="">  -->
       
@@ -199,11 +209,13 @@ MENÚ MÓVIL
               </li>
       
           </ul>
+          
     </div>
 	
 
 </div>
-    
+
+<!-- Banner-->
 
 <div class="banner container-fluid p-0">
 	
