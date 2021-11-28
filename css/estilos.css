@@ -126,11 +126,18 @@ BANNER
 
 .banner .fade-slider{
 	position:relative;
-   
+}
+.banner2 .fade-slider{
+	position:relative;
+}
+.banner {
+	position:relative;
 }
 .banner2 {
 	position:relative;
-   
+}
+.banner3 {
+	position:relative;
 }
 
 .banner .verMas{
@@ -309,18 +316,12 @@ PROGRAMAS
 ///////////////////////////////
 
 */
-/*noticias 3*/
+/*noticias 3 ------SOFTWARE LIBRE*/
 .noticias-3{
    text-align: center;
    color: #ffffff;
 }
-.noticias-3-imagenes{
-   background-color: black;
-   /*opacity: 0.5;*/
-   background-blend-mode: soft-light;
-   grid-template-columns: auto;
-  
-}
+
 .box1{
    width: 300px;
    height: 550px;
@@ -330,7 +331,7 @@ PROGRAMAS
 }
 .box2{
    width: 300px;
-   height: 700px;
+   height: 600px;
    position: relative;
    overflow: hidden;
    margin:20px;
