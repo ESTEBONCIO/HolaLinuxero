@@ -40,7 +40,7 @@ header .bloqueReservas{
 }
 
 header .bloqueReservas .campana-y-reserva{
-   background: #FFFBEE;
+   background: #05ceac;
    cursor: pointer;
 }
 
@@ -78,11 +78,24 @@ header .formReservas input[type="button"]{
 }
 
 
-header .fa-user{
+header .fa-user {
    font-size: 25px;
-   color: #DFDAD4;
+   color: #ffffff;
    cursor: pointer;
 }
+header .fa-bell{
+   font-size: 25px;
+   color: #ffffff;
+}
+header .fa-caret-up{
+   font-size: 25px;
+   color: #ffffff;
+}
+header .fas-fa-bars{
+   font-size: 25px;
+   color: #ffffff;
+}
+
 
 header .idiomas span{
    cursor: pointer;
@@ -129,7 +142,8 @@ BANNER
 /*=============================================
 MENU
 =============================================*/
- nav.menu{
+ 
+nav.menu{
     position: fixed;
     z-index:10;
     top: 100px;
@@ -153,10 +167,15 @@ MENU
 	position:fixed;
 	background: rgba(56, 88, 154 ,.8);
 	width:100%;
-	height:90vh;
+	height:110vh;
 	z-index:2;
 	overflow-x: hidden;  
 }
+
+.menuMovil{
+   margin-top: -120px;
+}
+
 
 img.linuxInvertido {
 float: left;
@@ -209,12 +228,66 @@ img.fondo_black {
 .icono_cerrar{
    text-align: right;
    cursor: pointer;
-   margin-left: 300px;
+   margin-left: 200px;
    vertical-align: middle;
 }
 
 /*=============================================
-BANNER
+NOTICIAS
 =============================================*/
-
- 
+.noticias-1{
+   text-align: center;
+   color: #ffffff;
+}
+.noticias-1-parrafo{
+   color: #ffffff;
+   text-align: justify;
+   padding-right: 25px;
+   padding-left: 25px;
+}
+.noticias-1-imagenes{
+   height: 300px;
+   grid-template-columns: auto;
+}
+.noticias-1-imagenes .ver_mas{
+	color: #ffffff;
+	position:absolute;
+	width:230px;
+	left:5%; 
+	top:60%; 
+	background-color: #999999;
+	height:150px;
+}
+.ver_mas{
+   text-align: center;
+   padding-top: 60px;
+}
+/*
+PROGRAMAS
+*/
+.noticias-2{
+   text-align: center;
+   color: #ffffff;
+}
+.noticias-2-parrafo{
+   text-align: justify;
+   padding-right: 25px;
+   padding-left: 25px;
+}
+.noticias-1-imagenes{
+   height: 350px;
+   grid-template-columns: auto;
+}
+.noticias-1-imagenes .ver_mas{
+	color: #ffffff;
+	position:absolute;
+	width:230px;
+	left:5%; 
+	top:60%; 
+	background-color: #999999;
+	height:150px;
+}
+.ver_mas{
+   text-align: center;
+   padding-top: 60px;
+}
