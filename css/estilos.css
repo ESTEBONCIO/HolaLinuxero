@@ -2,7 +2,7 @@
 	font-family: 'Ubuntu', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,input,textarea,select,button{
+h1,h2,h3,h4,h5,h6,p,input,textarea,select,button{
    font-family: 'Open Sans, sans-serif';
    font-weight: 100;
 }
@@ -126,6 +126,11 @@ BANNER
 
 .banner .fade-slider{
 	position:relative;
+   
+}
+.banner2 {
+	position:relative;
+   
 }
 
 .banner .verMas{
@@ -291,3 +296,122 @@ PROGRAMAS
    text-align: center;
    padding-top: 60px;
 }
+
+
+
+
+
+
+
+
+
+/*
+///////////////////////////////
+
+*/
+/*noticias 3*/
+.noticias-3{
+   text-align: center;
+   color: #ffffff;
+}
+.noticias-3-imagenes{
+   background-color: black;
+   /*opacity: 0.5;*/
+   background-blend-mode: soft-light;
+   grid-template-columns: auto;
+  
+}
+.box1{
+   width: 300px;
+   height: 550px;
+   position: relative;
+   overflow: hidden;
+   margin:20px;
+}
+.box2{
+   width: 300px;
+   height: 700px;
+   position: relative;
+   overflow: hidden;
+   margin:20px;
+}
+
+.box1 img{
+   color: blanchedalmond;
+      width: 100%;
+      height:  100%;
+}
+.box2 img{
+   color: blanchedalmond;
+      width: 100%;
+      height:  100%;
+}
+.capa{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height:  100%;
+   background:rgba(0, 0, 0, 0.5);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   color: #ffffff;
+   transform: scale(0);
+   transition: .3s ease;
+}
+.box1:hover .capa{
+   transform: scale(1);
+}
+.box2:hover .capa{
+   transform: scale(1);
+}
+.ver_mas1{
+   color: #8B7556;
+	position:absolute;
+	width:430px;
+	left:2%; 
+	top:20%; 
+	background-color: #ffffff;
+	height:250px;
+   text-align: justify;
+}
+.ver_mas2{
+   color: #8B7556;
+	position:absolute;
+	width:300px;
+	left:2%; 
+	top:20%; 
+	background-color: #ffffff;
+	height:350px;
+   text-align: justify;
+}
+.ver_mas3{
+   color: #8B7556;
+	position:absolute;
+	width:300px;
+	left:2%; 
+	top:20%; 
+	background-color: #ffffff;
+	height:450px;
+   text-align: justify;
+}
+#btnVerMas1{
+   margin-top: 10px;
+   margin-left: 145px;
+   background-color: rgb(15, 84, 223);
+   color: floralwhite;
+}
+#btnVerMas2{
+   margin-top: 20px;
+   margin-left: 90px;
+   background-color: rgb(15, 84, 223);
+   color: floralwhite;
+}
+#btnVerMas3{
+   margin-top: 20px;
+   margin-left: 90px;
+   background-color: rgb(15, 84, 223);
+   color: floralwhite;
+}
+
