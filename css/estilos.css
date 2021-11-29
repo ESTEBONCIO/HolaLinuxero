@@ -583,3 +583,75 @@ MAPA
 .mapa .info h3{
 	font-weight: bold;
 }
+
+/*=============================================
+FOOTER
+=============================================*/
+
+footer .grid-container{
+	display:grid;
+	/*grid-template-columns: 3fr 5fr;*/
+}
+
+footer .grid-item1{
+	background-color: #000000;
+	text-align:right;
+   top: 12px;
+	color:rgb(255, 255, 255);
+}
+footer .grid-item2{
+	background-color: #000000;
+	text-align:center;
+	color:rgb(255, 255, 255);
+}
+footer .grid-item3{
+	background-color: #000000;
+	text-align:center;
+   top: 12px;
+	color:rgb(255, 255, 255);
+}
+footer .grid-item4{
+	background-color: #000000;
+	text-align:center;
+   top: 12px;
+	color:rgb(255, 255, 255);
+}
+footer .grid-item5{
+	background-color: #000000;
+	text-align:center;
+   top: 12px;
+	color:rgb(255, 255, 255);
+}
+
+footer .fa-whatsapp{
+   font-size: 40px;
+   color: #ffffff;
+   cursor: pointer;
+}
+footer .fa-instagram{
+   font-size: 40px;
+   color: #ffffff;
+   cursor: pointer;
+}
+
+footer .fa-youtube{
+   font-size: 40px;
+   color: #ffffff;
+   cursor: pointer;
+}
+
+footer .fa-facebook{
+   font-size: 40px;
+   color: #ffffff;
+   cursor: pointer;
+}
+
+/*
+.redesMovil{
+	visibility: hidden;
+	position: fixed;
+	bottom:0px;
+	z-index:2;
+	width:100%;
+	background: #197DB1;
+}*/
