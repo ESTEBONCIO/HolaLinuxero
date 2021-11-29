@@ -16,7 +16,7 @@ a:visited, a:link, a:focus, a:hover, a:active{
    text-decoration: none;
 }
 body{
-   background-color: black;
+   background-color: rgba(0, 0, 0);
 }
 /*=============================================
 HEADER
@@ -156,6 +156,9 @@ li .gaaaaaa{
     transform: translate(-50%, 0%);
     cursor:pointer;
 }
+
+
+
 
 /*=============================================
 MENU
@@ -309,7 +312,10 @@ PROGRAMAS
    text-align: center;
    padding-top: 60px;
 }
-
+.noticias-3-imagenes{
+   padding: 0px;
+   grid-template-columns: auto;
+}
 
 
 
@@ -333,14 +339,14 @@ PROGRAMAS
    height: 550px;
    position: relative;
    overflow: hidden;
-   margin:20px;
+   margin:0px;
 }
 .box2{
    width: 300px;
    height: 600px;
    position: relative;
    overflow: hidden;
-   margin:20px;
+   margin:0px;
 }
 
 .box1 img{
@@ -353,6 +359,23 @@ PROGRAMAS
       width: 100%;
       height:  100%;
 }
+.box5 img{
+   color: rgb(24, 15, 2);
+      width: 100%;
+      height:  100%;
+}
+.box6 img{
+   color: blanchedalmond;
+      width: 107%;
+      height:  100%;
+}
+.box7 img{
+   color: blanchedalmond;
+      width: 107%;
+      height:  100%;
+}
+
+
 .capa{
    position: absolute;
    top: 0;
@@ -367,10 +390,54 @@ PROGRAMAS
    transform: scale(0);
    transition: .3s ease;
 }
+.capa1{
+   position: absolute;
+   top: 0;
+   left: -15px;
+   width: 100%;
+   height:  100%;
+   background:rgba(0, 0, 0, 0.5);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   color: #ffffff;
+   transform: scale(0);
+   transition: .3s ease;
+}
+.capa2{
+   position: absolute;
+   top: 0;
+   left: -15px;
+   width: 101%;
+   height:  100%;
+   background:rgba(0, 0, 0, 0.5);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   color: #ffffff;
+   transform: scale(0);
+   transition: .3s ease;
+}
 .box1:hover .capa{
    transform: scale(1);
 }
+.box6:hover .capa1{
+   transform: scale(1);
+}
+.box2:hover .capa2{
+   transform: scale(1);
+}
 .box2:hover .capa{
+   transform: scale(1);
+}
+
+.box5:hover .capa{
+   transform: scale(1);
+}
+.box6:hover .capa1{
+   transform: scale(1);
+}
+.box7:hover .capa2{
    transform: scale(1);
 }
 .ver_mas1{
@@ -403,6 +470,28 @@ PROGRAMAS
 	height:450px;
    text-align: justify;
 }
+.ver_mas6{
+   color: #8B7556;
+	position:absolute;
+	width:300px;
+	left:2%; 
+	top:20%; 
+	background-color: #ffffff;
+	height:150px;
+   text-align: justify;
+}
+.ver_mas7{
+   color: #8B7556;
+	position:absolute;
+	width:300px;
+	left:2%; 
+	top:20%; 
+	background-color: #ffffff;
+	height:150px;
+   text-align: justify;
+}
+
+
 #btnVerMas1{
    margin-top: 10px;
    margin-left: 145px;
@@ -418,7 +507,79 @@ PROGRAMAS
 #btnVerMas3{
    margin-top: 20px;
    margin-left: 90px;
-   background-color: rgb(15, 84, 223);
+   background-color: rgb(56, 88, 154 );
+   color: floralwhite;
+}
+#btnVerMas5{
+   margin-bottom: 20px;
+   margin-left: 150px;
+   background-color: rgb(56, 88, 154 );
+   color: floralwhite;
+}
+#btnVerMas6{
+   margin-bottom: 20px;
+   margin-left: 100px;
+   background-color: rgb(56, 88, 154 );
+   color: floralwhite;
+}
+#btnVerMas7{
+   margin-bottom: 20px;
+   margin-left: 100px;
+   background-color: rgb(56, 88, 154 );
    color: floralwhite;
 }
 
+/*=============================================
+APRENDE CONMIGO
+=============================================*/
+
+.aprende-conmigo{
+   height: 100%;
+   width: 100%;
+}
+.aprende-conmigo1{
+   height: 100%;
+   width: 107%;
+   margin-left: -28px;
+}
+.aprende-conmigo2{
+   height: 100%;
+   width: 107%;
+   margin-left: -28px;
+}
+
+/*=============================================
+CONTACTANOS
+=============================================*/
+
+.contactenos input{
+   width:100% !important;
+   margin:10px 0px !important;
+}
+
+.btnEnviar{
+   text-align: center;
+   background-color: rgb(56, 88, 154 );
+   color: floralwhite;
+}
+
+/*=============================================
+MAPA
+=============================================*/
+.mapa{
+	position:relative;
+}
+
+.mapa .info{
+	color: #ffffff;
+	position:absolute;
+	width:400px;
+	right:10%; 
+	top:10%; 
+	background-color: rgb(56, 88, 154 );
+	height:370px;
+}
+
+.mapa .info h3{
+	font-weight: bold;
+}
