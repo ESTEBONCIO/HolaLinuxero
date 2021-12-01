@@ -21,11 +21,13 @@ body{
 /*=============================================
 HEADER
 =============================================*/
-/*header{
+header{
    position:fixed;
-   z-index:2;
+   z-index: 1;
+   top: -23px;
 }
-*/
+
+
 header .grid-container{
    display:grid;
 }
@@ -109,7 +111,14 @@ header .botonMenu i{
 
 .header-principal{
    background: black;
+    
 }
+
+/*  
+MODO DARK
+///////////////////////////////////
+*/
+
 
 .textBienvenido{
    color: #ffffff;
@@ -117,8 +126,7 @@ header .botonMenu i{
 }
 .header-oculto{
    margin-top: 20px;
-   margin-bottom: -70px;
-
+   margin-bottom: 100px;
 }
 /*=============================================
 BANNER
@@ -126,6 +134,7 @@ BANNER
 
 .banner .fade-slider{
 	position:relative;
+   height: auto;
    
 }
 li .gaaaaaa{
@@ -166,8 +175,8 @@ MENU
  
 nav.menu{
     position: fixed;
-    z-index:10;
-    top: 100px;
+    z-index:2;
+    top: 77px;
     background-color: rgb(56, 88, 154 );
     display:none;
  }
@@ -183,6 +192,19 @@ nav.menu{
 	background:#dd1c3b;
 	transition:.5s all;
 }
+
+/*
+modo dark
+////////////////
+*/
+.switch{
+   width: 60px;
+   background: rgb(255, 255, 255);
+   color: black;
+   align-items: center;
+
+}
+
 .menuMovil{
 	display:none;
 	position:fixed;
@@ -226,6 +248,8 @@ img.fondo_black {
    margin-left: -253px;
 }
 .nav-item1{
+   z-index: 0;
+   top: 30px;
    color: #B5A99B;
    cursor: pointer;
 }
@@ -256,6 +280,9 @@ img.fondo_black {
 /*=============================================
 NOTICIAS
 =============================================*/
+
+
+
 .noticias-1{
    text-align: center;
    color: #ffffff;
@@ -301,12 +328,12 @@ PROGRAMAS
 }
 .noticias-1-imagenes .ver_mas{
 	color: #ffffff;
-	position:absolute;
+	position:fixed;
 	width:230px;
 	left:5%; 
 	top:60%; 
 	background-color: #999999;
-	height:150px;
+	height:auto;
 }
 .ver_mas{
    text-align: center;
@@ -316,12 +343,6 @@ PROGRAMAS
    padding: 0px;
    grid-template-columns: auto;
 }
-
-
-
-
-
-
 
 
 /*
@@ -334,16 +355,17 @@ PROGRAMAS
    color: #ffffff;
 }
 
+
 .box1{
-   width: 300px;
-   height: 550px;
+   width: auto;
+   height: auto;
    position: relative;
    overflow: hidden;
    margin:0px;
 }
 .box2{
-   width: 300px;
-   height: 600px;
+   width: auto;
+   height: auto;
    position: relative;
    overflow: hidden;
    margin:0px;
@@ -560,7 +582,7 @@ CONTACTANOS
 .btnEnviar{
    text-align: center;
    background-color: rgb(56, 88, 154 );
-   color: floralwhite;
+   color: rgb(255, 255, 255);
 }
 
 /*=============================================
