@@ -26,7 +26,6 @@
   .header_item {
     height: 80px;
   }
-
   .header_item i {
     font-size: 30px;
     margin-top: 10px;
@@ -51,19 +50,16 @@
     text-align: center;
     z-index: 5;
   }
-
   .menu_movil li {
     height: 50px;
     border-top: 1px solid black;
   }
-
   .menu_movil li:hover > .nav-link {
     height: 50px;
     color: black;
     font-weight: bold;
     background-color: #fde49c;
   }
-
   /*=============================================
             TODO -- BLOQUE NAVITEL PERU
     =============================================*/
