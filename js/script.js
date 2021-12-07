@@ -57,7 +57,7 @@ if(window.matchMedia("(max-width:768px)").matches){
 
 		$(".menu").slideToggle('fast');
 
-		$(".formReservas").slideUp('fast');
+		//$(".formReservas").slideUp('fast');
 
 	})
 
