@@ -1,0 +1,276 @@
+@media (max-width: 767.5px) {
+  /*=============================================
+                    TODO -- GLOBAL
+    =============================================*/
+
+  .diseño_titulo {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  /*=============================================
+                    TODO -- HEADER
+    =============================================*/
+  .header {
+    height: 80px;
+  }
+
+  /* TODO -- HEADER --- CONTENIDO */
+  .header_contenido {
+    grid-template-columns: 11fr 0.5fr 0.5fr;
+  }
+
+  /* TODO -- HEADER --- ITEM */
+  .header_item {
+    height: 80px;
+  }
+
+  .header_item i {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  /*=============================================
+                  TODO -- BANNER
+  =============================================*/
+  .banner li {
+    height: 400px;
+  }
+
+  /*=============================================
+                TODO -- MENU MOVIL
+  =============================================*/
+  .menu_movil {
+    top: 80px;
+    position: fixed;
+    height: 100%;
+    background-color: rgba(253, 228, 156, 0.7);
+    text-align: center;
+    z-index: 5;
+  }
+
+  .menu_movil li {
+    height: 50px;
+    border-top: 1px solid black;
+  }
+
+  .menu_movil li:hover > .nav-link {
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    background-color: #fde49c;
+  }
+
+  /*=============================================
+            TODO -- BLOQUE NAVITEL PERU
+    =============================================*/
+  /* TODO -- BLOQUE NAVITEL PERU --- CONTENEDOR */
+  .navitel_contenedor {
+    grid-template-columns: 12fr;
+  }
+
+  /* TODO -- BLOQUE NAVITEL PERU --- ITEM 1,2 Y 3 */
+  .navitel_item {
+    height: auto;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  /* TODO -- BLOQUE NAVITEL PERU --- ITEM 1,2 Y 3 ---- IMG */
+  .navitel_item_img {
+    height: 250px;
+  }
+
+  .navitel_item p {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  /*=============================================
+              TODO -- BLOQUE PLANES
+  =============================================*/
+  /* TODO -- BLOQUE PLANES --- CONTENEDOR */
+  .planes_contenedor {
+    grid-template-columns: 12fr;
+  }
+
+  /* TODO -- BLOQUE PLANES --- ITEM 1 FONDO */
+  .planes_item_fondo {
+    background-size: 100% 300px;
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  /*=============================================
+              TODO -- BLOQUE SERVICIO
+  =============================================*/
+  /* TODO -- BLOQUE PLANES --- ITEM 2 ---- IMG */
+  .servicios_contenedor {
+    grid-template-columns: 12fr;
+  }
+
+  /* TODO -- BLOQUE PLANES --- ITEM 2 ---- IMG */
+  .servicios_item {
+    height: auto;
+  }
+
+  /* TODO -- BLOQUE PLANES --- ITEM 2 ---- IMG */
+  .servicios_item_contenedor {
+    grid-template-columns: 12fr;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  /* TODO -- BLOQUE PLANES --- ITEM 2 ---- IMG */
+  .servicios_item_img {
+    height: 300px;
+  }
+
+  .servicios_item p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  /*=============================================
+              TODO -- BLOQUE EQUIPOS
+  =============================================*/
+  /* TODO -- BLOQUE EQUIPOS --- CONTENEDOR */
+  .equipos_contenedor {
+    grid-template-columns: 12fr;
+  }
+
+  /* TODO -- BLOQUE EQUIPOS --- ITEMS */
+  .equipos_item {
+    height: 300px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  /*=============================================
+            TODO -- BLOQUE QUIENES SOMOS
+  =============================================*/
+  /* TODO -- BLOQUE QUIENES SOMOS --- CONTENIDO */
+  .quienes_contenido {
+    height: auto;
+  }
+
+  .quienes_contenido p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  /* TODO -- BLOQUE QUIENES SOMOS --- IMG DESLIZABLES */
+  .quienes_img_deslizables {
+    height: 300px;
+  }
+
+  .quienes_img_deslizables img {
+    height: 300px;
+  }
+
+  /*=============================================
+            TODO -- BLOQUE CONTACTENOS
+    =============================================*/
+  /* TODO -- BLOQUE CONTACTENOSS --- FONDO */
+  .contactenos_fondo {
+    background-size: 200% 1000px;
+    height: auto;
+  }
+
+  /* TODO -- BLOQUE CONTACTENOS --- FORMULARIO */
+  .contactenos_formulario {
+    grid-template-columns: 12fr;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  /* TODO -- BLOQUE CONTACTENOS --- INPUT */
+  .contactenos_formulario_input {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  /* TODO -- BLOQUE CONTACTENOS --- TEXTAREA */
+  .contactenos_formulario_textarea {
+    width: 90%;
+    margin-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 30px;
+    padding-left: 2%;
+  }
+
+  /* TODO -- BLOQUE CONTACTENOS --- BOTON */
+  .contactenos_formulario_boton {
+    margin-bottom: 60px;
+  }
+
+  /*=============================================
+              TODO -- FOOTER MOVIL
+  =============================================*/
+  .footer_movil {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    border: 2px solid black;
+  }
+
+  /* TODO -- FOOTER MOVIL --- INFO */
+  .footer_movil_info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .footer_movil_info p {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    font-size: 12px;
+  }
+
+  /* TODO -- FOOTER MOVIL --- CONTENEDOR */
+  .footer_movil_contenedor {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+
+  /* TODO -- FOOTER MOVIL --- ITEM ---- IMG */
+  .footer_movil_item_image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* TODO -- FOOTER MOVIL --- ITEM ---- CONTENEDOR */
+  .footer__movil_item_contenedor {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+  }
+
+  /* TODO -- FOOTER MOVIL --- ITEM ---- ICONOS */
+  .footer__movil_item_icono i {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20%;
+  }
+}
+
+/*=============================================
+SCROLL UP
+=============================================*/
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: url("../../Imagenes Optimizadas/img/flecha.jpg");
+}

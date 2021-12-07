@@ -31,6 +31,7 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-movil.css">
         <link rel="stylesheet" href="css/dark.css">
         
         <!-- Font Awesome -->
@@ -232,19 +233,19 @@ MENÚ MÓVIL
 			<ul class="slide-area">
 				
 				<li>					
-                    <img id="gaaaaaa" src="image/noticias/linux-principal.png"  class="img-fluid" alt="Eniun">
+                    <img id="gaaaaaa" src="image/noticias/linux-principal.png" width="100%" height="100%">
                 </li>
 
                 <li>  
-                    <img src="image/noticias/linux-banner-luces.jpg"  class="img-fluid" alt="Eniun">            	
+                    <img src="image/noticias/linux-banner-luces.jpg" width="100%" height="100%">            	
                 </li>
 
                 <li>               	
-                    <img src="image/noticias/ubuntu.jpg" class="img-fluid" alt="Eniun">
+                    <img src="image/noticias/ubuntu.jpg"width="100%" height="100%">
                 </li>
 
                 <li>               	
-                    <img src="image/noticias/noticia_02.jpg" class="img-fluid" alt="Eniun">
+                    <img src="image/noticias/noticia_02.jpg"width="100%" height="100%">
                 </li>
 
 			</ul>
@@ -284,14 +285,14 @@ NOTICIAS
         </div>
         <div class="row">
 
-            <div class="noticias-1-parrafo col-12 ">
+            <div class="noticias-1-parrafo pl-5 col-10">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit libero laboriosam amet eum voluptatibus, commodi eveniet ipsam possimus blanditiis, id delectus voluptas omnis saepe sed animi. Officia vel rerum aliquam non repellendus adipisci nemo ut dolorem, temporibus, ipsam et sint pariatur rem, animi possimus obcaecati autem inventore sequi debitis voluptate fuga quia aliquid voluptatem fugit! Harum facilis, placeat aspernatur iusto ratione debitis nostrum libero sint inventore pariatur rem nisi repellendus consequuntur eius unde beatae provident impedit atque adipisci soluta voluptates nemo sunt, aliquid autem. Asperiores ipsum, corporis, autem aliquam vero consequuntur odio veritatis sequi voluptas dolores omnis vitae aut harum.
                 </p>
             </div>
 
         </div>
-        <div class="noticias-2-imagenes row mr-2 ml-2 ">
+        <div class="noticias-2-imagenes2 row mr-2 ml-2 ">
             <div class="col-12 col-md-6  p-2 ">
 
                 <img src="image/aprende_conmigo/juntos.jpg" alt="" class="img-fluid" width="100%">
@@ -308,43 +309,20 @@ NOTICIAS
 
 <!--PROGRAMAS-->
 
-        <div class="programas container-fluid" id="programas">
+        <div class="programas container" id="programas">
             <br><br>
-            <div class="row ">
+            <div class="row">
     
                 <div class="noticias-2 col-12 p-3"><h4>PROGRAMAS</h4></div>
     
             </div>
             
-            <div class="box1 container">
+            
                 <div class="noticias-2-imagenes row ">
-                    <div class="box1 col-12">
         
-                        <img src="image/programas/code.jpg" alt="Eniun" class="img-fluid">
-                       <div class="capa">
-                        <!--<h2>Ver Más</h2>-->
-                        <div class="capa container">
-                            <div class="p-3 ver_mas1">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum sapiente rerum necessitatibus repellendus dolorem, consequuntur iste placeat! Dolorem fugiat itaque adipisci sit nihil, voluptatibus assumenda tenetur ex ducimus, iste magnam ea eius nostrum beatae tempore aliquam. Sed rerum earum aspernatur aliquam! Autem earum aut labore. Molestias labore fugit error.
-                                </p>
-                                <input id="btnVerMas1" type="button" value="Ver Más">
-                            </div>
-
-                        </div>
-                        
-                       </div>
-        
-                    </div>
+                        <img src="image/programas/code.jpg" width="100%" height="100%">
                     
                 </div>
-
-
-            </div>
-
-
-
-            
 
 
         </div>
@@ -547,35 +525,53 @@ NOTICIAS
                 
             </div>
 
-            <!--=====================================
-            CONTÁCTENOS
-            ======================================-->
+          
+    <!--=====================================
+            TODO -- BLOQUE CONTACTENOS
+    ======================================-->
+    <div class="contactenos container-fluid p-0" id="contactenos">
 
-            <div class="contactanos container py-4" id="contactanos">
+        <!-- TODO -- BLOQUE CONTACTENOSS --- FONDO -->
+        <div class="contactenos_fondo container p-0">
 
-                <div class="container text-center">
-                    <br><br>
-                    <div class="noticias-1 col-12 p-3"><h4>CONTÁCTANOS</h4></div>
-                    <form>
+            <!-- TODO -- BLOQUE CONTACTENOS --- TRANSPARENTE -->
+            <div class="contactenos_transparente">
 
-                        <div class="input-group input-group-lg">
+                <!-- TODO -- BLOQUE CONTACTENOS --- TITULO -->
+                <h1 class="diseño_titulo">CONTÁCTENOS</h1>
 
-                            <input type="text" class="form-control mb-3 mr-2 form-control-lg" placeholder="Nombre">
+                <!-- TODO -- BLOQUE CONTACTENOS --- FORMULARIO -->
+                <form>
 
-                            <input type="text" class="form-control mb-3 ml-2 form-control-lg" placeholder="Apellido">
-                        </div>
-                        <div class="input-group input-group-lg">
-                            <input type="text" class="form-control mb-3 mr-2 form-control-lg" placeholder="Móvil">
-                            <input type="text" class="form-control mb-3 ml-2 form-control-lg" placeholder="Correo Electrónico">
+                    <div class="contactenos_formulario">
 
-                        </div>
-                        <textarea class="form-control" rows="6" placeholder="Escribe aquí tu mensaje"></textarea>
-                        <input class="btnEnviar my-4 btn-lg py-3 text-uppercase" value="Enviar">
-                    </form>
-                </div>
+                        <!-- TODO -- BLOQUE CONTACTENOS --- INPUT ---- NOMBRE -->
+                        <input type="text" class="contactenos_formulario_input" placeholder="Nombre">
+
+                        <!-- TODO -- BLOQUE CONTACTENOS --- INPUT ---- APELLIDOS -->
+                        <input type="text" class="contactenos_formulario_input" placeholder="Apellidos">
+
+                        <!-- TODO -- BLOQUE CONTACTENOS --- INPUT ---- CELULAR -->
+                        <input type="text" class="contactenos_formulario_input" placeholder="Celular">
+
+                        <!-- TODO -- BLOQUE CONTACTENOS --- INPUT ---- CORRREO -->
+                        <input type="text" class="contactenos_formulario_input" placeholder="Correo">
+
+                    </div>
+
+                    <!-- TODO -- BLOQUE CONTACTENOS --- TEXTAREA ---- MENSAJE -->
+                    <textarea class="contactenos_formulario_textarea" rows="6" placeholder="Escriba mensaje"></textarea>
+
+                    <!-- TODO -- BLOQUE CONTACTENOS --- BOTON ---- ENVIAR -->
+                    <input type="button" class="contactenos_formulario_boton color_Celeste text-white" value="Enviar">
+
+                </form>
+
             </div>
 
-           
+        </div>
+
+    </div>
 
             
 
@@ -588,20 +584,7 @@ NOTICIAS
 
                 <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2181015083097!2d-75.16167268476889!3d6.2349559954867315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e441d2a2f90b049%3A0xe73c0a7060062903!2sHOTEL+PORTOBELO+GUATAPE!5e0!3m2!1ses!2sco!4v1544281019677" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5842708018386!2d-77.10503903518723!3d-12.072099391450411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cbd8a8d28713%3A0xbfc546bb106407a6!2sIESTP%20ARAOZ%20PINTO!5e0!3m2!1ses-419!2spe!4v1638188752887!5m2!1ses-419!2spe" width="100%" height="450" frameborder="0"  style="border:0;" ></iframe>
-                <div class="p-4 info">
-                    <h3 class="mt-4"><strong>Visítanos</strong></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-                    <p>
-                    Apple inc.<br>
-                    Infinte Loop.<br>
-                    Cupertino, CA 95014<br>
-                    408-996-1010
-                    </p>
-
-                    <p class="pb-4">Email: info@apple.com<br>
-                    Tel: 1-800-676-2775</p>
-                </div>
+                
             </div>
    
             
